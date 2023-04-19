@@ -37,7 +37,7 @@ function Home() {
   // Movies list
  
   useEffect(() => {
-    fetch('https://mymovizback-three.vercel.app//movies')
+    fetch('https://mymovizback-three.vercel.app/movies')
       .then(response => response.json())
       .then(data => {
         setMoviesData(data.movies); 
